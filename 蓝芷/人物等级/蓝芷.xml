@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CharacterConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <InitDate>2637-09-01T00:00:00</InitDate>
+  <InitAge>6</InitAge>
+  <InitLevel>7</InitLevel>
+  <InitCongenitalPower>7</InitCongenitalPower>
+  <InitEffort>1</InitEffort>
+  <Levels>
+    <CharacterConfigLevel Level="7" SoulCircle="0" ExLevel="0" Effort="0" CongenitalPower="0" Comments="觉醒蓝银王武魂" />
+    <CharacterConfigLevel Level="8" SoulCircle="0" ExLevel="0" Effort="0" CongenitalPower="0" Comments="领悟蓝银领域雏形，修炼速度加快50%" />
+    <CharacterConfigLevel Level="9" SoulCircle="0" ExLevel="0" Effort="0" CongenitalPower="0" Comments="达到10级，领悟武魂传承，继续累积魂力" />
+    <CharacterConfigLevel Level="10" SoulCircle="400" ExLevel="0" Effort="3" CongenitalPower="8" Comments="自我凝聚魂环，完全领悟蓝银领域，开发蓝银相位法" />
+    <CharacterConfigLevel Level="15" SoulCircle="0" ExLevel="0" Effort="4" CongenitalPower="0" />
+    <CharacterConfigLevel Level="20" SoulCircle="700" ExLevel="0" Effort="0" CongenitalPower="0" Comments="自我凝聚第二魂环，领悟治愈，前往斗魂场" />
+    <CharacterConfigLevel Level="30" SoulCircle="1500" ExLevel="0" Effort="8" CongenitalPower="0" />
+    <CharacterConfigLevel Level="40" SoulCircle="4500" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="50" SoulCircle="10000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="55" SoulCircle="0" ExLevel="0" Effort="16" CongenitalPower="0" />
+    <CharacterConfigLevel Level="60" SoulCircle="20000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="70" SoulCircle="45000" ExLevel="0" Effort="2" CongenitalPower="12" Comments="武魂进化光明蓝银皇" />
+    <CharacterConfigLevel Level="80" SoulCircle="60000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="83" SoulCircle="0" ExLevel="0" Effort="26" CongenitalPower="0" Comments="开始加速修炼" />
+    <CharacterConfigLevel Level="90" SoulCircle="80000" ExLevel="0" Effort="0" CongenitalPower="0" />
+  </Levels>
+</CharacterConfig>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CharacterConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <InitDate>2643-01-01T00:00:00</InitDate>
+  <InitAge>18</InitAge>
+  <InitLevel>10</InitLevel>
+  <InitCongenitalPower>10</InitCongenitalPower>
+  <InitEffort>0.8</InitEffort>
+  <Levels>
+    <CharacterConfigLevel Level="10" SoulCircle="5000" ExLevel="0" Effort="0.6" CongenitalPower="12" Comments="服用幽香绮罗仙品和冰火双草" />
+    <CharacterConfigLevel Level="20" SoulCircle="5000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="30" SoulCircle="5000" ExLevel="0" Effort="2" CongenitalPower="0" Comments="在冰火泉眼中修炼速度翻倍" />
+    <CharacterConfigLevel Level="36" SoulCircle="0" ExLevel="0" Effort="2" CongenitalPower="0" Comments="" />
+    <CharacterConfigLevel Level="40" SoulCircle="8000" ExLevel="0" Effort="0.6" CongenitalPower="0" Comments="回天斗皇家学院修炼速度恢复" />
+    <CharacterConfigLevel Level="43" SoulCircle="0" ExLevel="0" Effort="2" CongenitalPower="0" Comments="回到冰火两仪眼修炼" />
+    <CharacterConfigLevel Level="50" SoulCircle="14000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="55" SoulCircle="0" ExLevel="0" Effort="0" CongenitalPower="0" Comments="参加斗魂大赛" />
+    <CharacterConfigLevel Level="60" SoulCircle="22000" ExLevel="0" Effort="0" CongenitalPower="0" Comments="蓝芷达到99级" />
+    <CharacterConfigLevel Level="70" SoulCircle="45000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="74" SoulCircle="0" ExLevel="6" Effort="0" CongenitalPower="0" Comments="获得冰火龙王双魂骨，立刻达到80级" />
+    <CharacterConfigLevel Level="80" SoulCircle="60000" ExLevel="8" Effort="0" CongenitalPower="0" Comments="获得冰火龙王双魂骨继续影响达到90级" />
+    <CharacterConfigLevel Level="90" SoulCircle="80000" ExLevel="0" Effort="0" CongenitalPower="0" />
+  </Levels>
+</CharacterConfig>
