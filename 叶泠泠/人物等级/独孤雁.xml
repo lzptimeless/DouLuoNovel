@@ -19,6 +19,7 @@
     <CharacterConfigLevel Level="79" SoulCircle="0" ExLevel="0" Effort="7.5" CongenitalPower="0" Comments="潜入深度增加" />
     <CharacterConfigLevel Level="80" SoulCircle="60000" ExLevel="0" Effort="0" CongenitalPower="0" />
     <CharacterConfigLevel Level="88" SoulCircle="0" ExLevel="0" Effort="8" CongenitalPower="0" Comments="潜入深度增加，修炼速度加成达到上限" />
-    <CharacterConfigLevel Level="90" SoulCircle="80000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="90" SoulCircle="0" ExLevel="0" Effort="0.21" CongenitalPower="0" Comments="开始增加魂环年限" />
+    <CharacterConfigLevel Level="91" SoulCircle="0" ExLevel="0" Effort="8" CongenitalPower="0" Comments="开始再次冲级" />
   </Levels>
 </CharacterConfig>

@@ -6,17 +6,12 @@
   <InitCongenitalPower>10</InitCongenitalPower>
   <InitEffort>1</InitEffort>
   <Levels>
-    <CharacterConfigLevel Level="10" SoulCircle="400" ExLevel="0" Effort="0" CongenitalPower="0" />
-    <CharacterConfigLevel Level="15" SoulCircle="0" ExLevel="0" Effort="2" CongenitalPower="0" Comments="买到生灵之金" />
-    <CharacterConfigLevel Level="20" SoulCircle="700" ExLevel="0" Effort="0" CongenitalPower="0" />
-    <CharacterConfigLevel Level="25" SoulCircle="0" ExLevel="0" Effort="4" CongenitalPower="0" Comments="成功凝聚生灵之金躯干骨，通过吸收金属修炼" />
-    <CharacterConfigLevel Level="30" SoulCircle="1500" ExLevel="0" Effort="0" CongenitalPower="0" />
-    <CharacterConfigLevel Level="40" SoulCircle="4500" ExLevel="0" Effort="0" CongenitalPower="0" />
-    <CharacterConfigLevel Level="43" SoulCircle="0" ExLevel="0" Effort="10" CongenitalPower="0" Comments="找到万载玄冰窟，吸收极冰神金修炼" />
-    <CharacterConfigLevel Level="50" SoulCircle="10000" ExLevel="0" Effort="0" CongenitalPower="0" />
-    <CharacterConfigLevel Level="60" SoulCircle="20000" ExLevel="0" Effort="0" CongenitalPower="0" />
-    <CharacterConfigLevel Level="70" SoulCircle="45000" ExLevel="0" Effort="0" CongenitalPower="11" Comments="武魂进化为灵金海棠" />
-    <CharacterConfigLevel Level="80" SoulCircle="60000" ExLevel="0" Effort="0" CongenitalPower="0" />
-    <CharacterConfigLevel Level="90" SoulCircle="80000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="14" SoulCircle="0" ExLevel="0" Effort="2" CongenitalPower="0" Comments="买到生灵之金" />
+    <CharacterConfigLevel Level="24" SoulCircle="0" ExLevel="0" Effort="4" CongenitalPower="0" Comments="成功凝聚生灵之金躯干骨，通过吸收金属修炼" />
+    <CharacterConfigLevel Level="40" SoulCircle="0" ExLevel="0" Effort="0" CongenitalPower="0" Comments="找到万载玄冰窟，吸收极冰神金修炼" />
+    <CharacterConfigLevel Level="43" SoulCircle="0" ExLevel="0" Effort="10" CongenitalPower="0" Comments="" />
+    <CharacterConfigLevel Level="70" SoulCircle="0" ExLevel="0" Effort="0" CongenitalPower="11" Comments="武魂进化为灵金海棠" />
+    <CharacterConfigLevel Level="90" SoulCircle="0" ExLevel="0" Effort="0.28" CongenitalPower="0" Comments="开始累积魂骨和魂环年限" />
+    <CharacterConfigLevel Level="91" SoulCircle="0" ExLevel="0" Effort="10" CongenitalPower="0" Comments="再次开始冲级" />
   </Levels>
 </CharacterConfig>
