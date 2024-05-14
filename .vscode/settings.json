@@ -3,5 +3,9 @@
         "editor.wrappingIndent": "none",
         "editor.autoIndent": "none",
         "editor.wordWrap": "bounded"
+    },
+    "[markdown]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 100
     }
 }
