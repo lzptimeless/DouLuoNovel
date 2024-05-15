@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CharacterConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <InitDate>2631-09-01T00:00:00</InitDate>
+  <InitAge>6</InitAge>
+  <InitLevel>10</InitLevel>
+  <InitCongenitalPower>10</InitCongenitalPower>
+  <InitEffort>1</InitEffort>
+  <Levels>
+    <CharacterConfigLevel Level="10" SoulCircle="0" ExLevel="0" Effort="4" CongenitalPower="20" />
+  </Levels>
+</CharacterConfig>
