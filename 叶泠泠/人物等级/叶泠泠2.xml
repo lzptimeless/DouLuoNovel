@@ -6,14 +6,6 @@
   <InitCongenitalPower>10</InitCongenitalPower>
   <InitEffort>1</InitEffort>
   <Levels>
-    <CharacterConfigLevel Level="10" SoulCircle="0" ExLevel="0" Effort="1" CongenitalPower="20" Comments="吸收星罗灵珠和望穿秋水露，凝聚万年魂环" />
-    <CharacterConfigLevel Level="20" SoulCircle="700" ExLevel="0" Effort="1.5" CongenitalPower="0" Comments="牺牲3倍修炼速度，凝聚万年魂环" />
-    <CharacterConfigLevel Level="30" SoulCircle="1500" ExLevel="0" Effort="2" CongenitalPower="0" Comments="牺牲2.5倍修炼速度，凝聚万年魂环" />
-    <CharacterConfigLevel Level="40" SoulCircle="4500" ExLevel="0" Effort="2.5" CongenitalPower="0" Comments="牺牲2倍修炼速度，凝聚万年魂环" />
-    <CharacterConfigLevel Level="50" SoulCircle="10000" ExLevel="0" Effort="3" CongenitalPower="0" Comments="牺牲1.5倍修炼速度，凝聚万年魂环" />
-    <CharacterConfigLevel Level="60" SoulCircle="20000" ExLevel="0" Effort="3.5" CongenitalPower="0" Comments="牺牲1倍修炼速度，凝聚万年魂环" />
-    <CharacterConfigLevel Level="70" SoulCircle="45000" ExLevel="0" Effort="4" CongenitalPower="0" Comments="牺牲0.5倍修炼速度，凝聚万年魂环" />
-    <CharacterConfigLevel Level="80" SoulCircle="60000" ExLevel="0" Effort="0" CongenitalPower="0" />
-    <CharacterConfigLevel Level="90" SoulCircle="80000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="10" SoulCircle="0" ExLevel="5" Effort="1.5" CongenitalPower="20" Comments="凝聚万年魂环，吸收星罗灵珠和望穿秋水露" />
   </Levels>
 </CharacterConfig>
