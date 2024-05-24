@@ -8,8 +8,13 @@
   <Levels>
     <CharacterConfigLevel Level="10" SoulCircle="0" ExLevel="0" Effort="0" CongenitalPower="0" Comments="吃了千年鲸胶，魂环年限提升700年" />
     <CharacterConfigLevel Level="15" SoulCircle="0" ExLevel="0" Effort="1.3" CongenitalPower="15" Comments="吃冰火双草和绮罗幽香仙品" />
-    <CharacterConfigLevel Level="20" SoulCircle="0" ExLevel="3" Effort="0" CongenitalPower="0" />
-    <CharacterConfigLevel Level="30" SoulCircle="0" ExLevel="3" Effort="0" CongenitalPower="0" />
-    <CharacterConfigLevel Level="40" SoulCircle="0" ExLevel="2" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="20" SoulCircle="1" ExLevel="3" Effort="0" CongenitalPower="0" Comments="吸收6500年魂环，等级提升3级" />
+    <CharacterConfigLevel Level="30" SoulCircle="1" ExLevel="3" Effort="0" CongenitalPower="0" Comments="吸收9000年魂环，等级提升3级" />
+    <CharacterConfigLevel Level="40" SoulCircle="1" ExLevel="2" Effort="0" CongenitalPower="0" Comments="吸收9000年魂环，等级提升2级" />
+    <CharacterConfigLevel Level="50" SoulCircle="1" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="60" SoulCircle="1" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="70" SoulCircle="1" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="80" SoulCircle="1" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="90" SoulCircle="1" ExLevel="0" Effort="0" CongenitalPower="0" />
   </Levels>
 </CharacterConfig>

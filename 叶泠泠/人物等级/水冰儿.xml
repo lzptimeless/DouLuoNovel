@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CharacterConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <InitDate>2634-06-01T00:00:00</InitDate>
+  <InitAge>6</InitAge>
+  <InitLevel>10</InitLevel>
+  <InitCongenitalPower>10</InitCongenitalPower>
+  <InitEffort>0.6</InitEffort>
+  <Levels>
+    <CharacterConfigLevel Level="10" SoulCircle="400" ExLevel="0" Effort="0" CongenitalPower="0" Comments="极致属性影响修炼速度" />
+    <CharacterConfigLevel Level="20" SoulCircle="700" ExLevel="0" Effort="0.8" CongenitalPower="0" />
+    <CharacterConfigLevel Level="22" SoulCircle="0" ExLevel="0" Effort="1.1" CongenitalPower="0" Comments="加入零队" />
+    <CharacterConfigLevel Level="30" SoulCircle="1500" ExLevel="5" Effort="1.5" CongenitalPower="15" Comments="服用八瓣仙兰" />
+    <CharacterConfigLevel Level="40" SoulCircle="4500" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="50" SoulCircle="10000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="60" SoulCircle="20000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="70" SoulCircle="45000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="80" SoulCircle="60000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="90" SoulCircle="80000" ExLevel="0" Effort="0" CongenitalPower="0" />
+  </Levels>
+</CharacterConfig>

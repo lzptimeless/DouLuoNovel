@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CharacterConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <InitDate>2633-06-01T00:00:00</InitDate>
+  <InitAge>6</InitAge>
+  <InitLevel>7</InitLevel>
+  <InitCongenitalPower>7</InitCongenitalPower>
+  <InitEffort>0.8</InitEffort>
+  <Levels>
+    <CharacterConfigLevel Level="10" SoulCircle="400" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="19" SoulCircle="0" ExLevel="0" Effort="1.4" CongenitalPower="0" Comments="加入零队" />
+    <CharacterConfigLevel Level="20" SoulCircle="700" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="27" SoulCircle="0" ExLevel="3" Effort="0" CongenitalPower="12" Comments="服用水仙玉肌骨" />
+    <CharacterConfigLevel Level="30" SoulCircle="1500" ExLevel="3" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="40" SoulCircle="4500" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="50" SoulCircle="10000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="60" SoulCircle="20000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="70" SoulCircle="45000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="80" SoulCircle="60000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="90" SoulCircle="80000" ExLevel="0" Effort="0" CongenitalPower="0" />
+  </Levels>
+</CharacterConfig>

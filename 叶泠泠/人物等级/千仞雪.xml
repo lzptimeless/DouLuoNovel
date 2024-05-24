@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CharacterConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <InitDate>2628-06-01T00:00:00</InitDate>
+  <InitAge>6</InitAge>
+  <InitLevel>20</InitLevel>
+  <InitCongenitalPower>20</InitCongenitalPower>
+  <InitEffort>0.8</InitEffort>
+  <Levels>
+    <CharacterConfigLevel Level="20" SoulCircle="700" ExLevel="1" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="30" SoulCircle="1500" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="34" SoulCircle="0" ExLevel="0" Effort="0.5" CongenitalPower="0" Comments="潜入天斗，浪费天赋" />
+    <CharacterConfigLevel Level="40" SoulCircle="4500" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="43" SoulCircle="0" ExLevel="0" Effort="0.8" CongenitalPower="0" />
+    <CharacterConfigLevel Level="44" SoulCircle="0" ExLevel="0" Effort="1" CongenitalPower="0" Comments="身份暴露，回到武魂殿" />
+    <CharacterConfigLevel Level="50" SoulCircle="10000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="60" SoulCircle="20000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="70" SoulCircle="45000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="80" SoulCircle="60000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="90" SoulCircle="80000" ExLevel="0" Effort="0" CongenitalPower="0" />
+  </Levels>
+</CharacterConfig>

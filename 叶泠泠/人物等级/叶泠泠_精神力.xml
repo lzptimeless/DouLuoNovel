@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CharacterConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <InitDate>2634-06-01T00:00:00</InitDate>
+  <InitAge>6</InitAge>
+  <InitLevel>70</InitLevel>
+  <InitCongenitalPower>20</InitCongenitalPower>
+  <InitEffort>3.5</InitEffort>
+  <Levels>
+    <CharacterConfigLevel Level="70" SoulCircle="1" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="80" SoulCircle="1" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="90" SoulCircle="1" ExLevel="0" Effort="0" CongenitalPower="0" />
+  </Levels>
+</CharacterConfig>
