@@ -12,8 +12,8 @@
     <CharacterConfigLevel Level="32" SoulCircle="0" ExLevel="0" Effort="1.5" CongenitalPower="0" Comments="加入零队" />
     <CharacterConfigLevel Level="40" SoulCircle="4500" ExLevel="0" Effort="0" CongenitalPower="0" />
     <CharacterConfigLevel Level="42" SoulCircle="0" ExLevel="8" Effort="0" CongenitalPower="15" Comments="服用飘渺风铃草提升6级，服用暗魔邪神虎风珠" />
-    <CharacterConfigLevel Level="50" SoulCircle="10000" ExLevel="0" Effort="0" CongenitalPower="0" />
-    <CharacterConfigLevel Level="60" SoulCircle="20000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="56" SoulCircle="0" ExLevel="4" Effort="0" CongenitalPower="0" Comments="龙谷收获" />
+    <CharacterConfigLevel Level="60" SoulCircle="0" ExLevel="4" Effort="0" CongenitalPower="0" Comments="龙谷收获" />
     <CharacterConfigLevel Level="70" SoulCircle="45000" ExLevel="0" Effort="0" CongenitalPower="0" />
     <CharacterConfigLevel Level="80" SoulCircle="60000" ExLevel="0" Effort="0" CongenitalPower="0" />
     <CharacterConfigLevel Level="90" SoulCircle="80000" ExLevel="0" Effort="0" CongenitalPower="0" />
