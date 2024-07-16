@@ -3,7 +3,7 @@ from http import HTTPStatus
 from dashscope import Generation  # 建议dashscope SDK 的版本 >= 1.14.0
 from novel import Novel
 
-def shrink(content, pre_simple_content) -> str:
+def shrink(content, pre_simple_content) -> tuple[bool, str]:
     if not isinstance(content, str):
         raise TypeError('content must be str.')
     append_msg = ''
@@ -18,18 +18,15 @@ def shrink(content, pre_simple_content) -> str:
                                # 将输出设置为"message"格式
                                result_format='message')
     if response.status_code == HTTPStatus.OK:
-        return response.output.choices[0].message.content
+        return (True, response.output.choices[0].message.content)
     else:
-        return 'Request id: %s, Status code: %s, error code: %s, error message: %s' % (
-            response.request_id, response.status_code,
-            response.code, response.message
-        )
+        return (False, f'Request id: {response.request_id}, Status code: {response.status_code}, error code: {response.code}, error message: {response.message}')
 
-title_start = '第二百四十八章 新老战队与新规则（下）'
+title_start = '第三百八十四章 拯救，南水水（上）'
 title_end = ''
 page = 0
 pre_simple_content = ''
-with open(r'02QuantumReading\output.txt', 'a') as outputIo:
+with open(r'02QuantumReading\output.txt', 'a', encoding='utf8') as outputIo:
     with Novel(r'01Data\原著\斗罗大陆2绝世唐门.txt') as novel:
         start = False
         for (title, content) in novel:
@@ -43,10 +40,16 @@ with open(r'02QuantumReading\output.txt', 'a') as outputIo:
                 print(f'skip {page} {title}')
             else:
                 print(f'shrink {page} {title}\n')
-                pre_simple_content = shrink(content, pre_simple_content)
+                success, shrink_content = shrink(content, pre_simple_content)
+                if success:
+                    pre_simple_content = shrink_content
+                else:
+                    pre_simple_content = ''
                 outputIo.write(f'{title}\n\n')
-                outputIo.write(pre_simple_content)
+                outputIo.write(shrink_content)
                 outputIo.write('\n\n')
-                print(pre_simple_content)
+                if page % 10 == 0:
+                    outputIo.flush()
+                print(shrink_content)
                 print('\n')
 print('end.')
