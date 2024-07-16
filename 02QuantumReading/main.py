@@ -23,7 +23,7 @@ def shrink(content) -> str:
             response.code, response.message
         )
 
-title_start = '第四十一章 冰碧帝皇蝎（上）'
+title_start = '第二百四十八章 新老战队与新规则（下）'
 title_end = ''
 page = 0
 with open(r'02QuantumReading\output.txt', 'a') as outputIo:
