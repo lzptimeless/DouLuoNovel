@@ -3,11 +3,13 @@ from http import HTTPStatus
 from dashscope import Generation  # 建议dashscope SDK 的版本 >= 1.14.0
 from novel import Novel
 
-def shrink(content) -> str:
+def shrink(content, pre_simple_content) -> str:
     if not isinstance(content, str):
         raise TypeError('content must be str.')
-
-    messages = [{'role': 'system', 'content': '你是一个小说阅读助手，帮助用户对小说内容进行精简，不要输出对文章内容的总结和观点，但需要对以下内容的细节进行保留：数字、方位、时间、地点、修炼设定、武器设定、辅助工具设定、人物设定、势力设定、魂兽设定、技能设定、魂技设定、魂导器设定、战斗细节、主要情节'},
+    append_msg = ''
+    if pre_simple_content:
+        append_msg = f'。为了确保结果逻辑通顺，可以参考上一章的简要信息：{pre_simple_content}'
+    messages = [{'role': 'system', 'content': '你是一个小说阅读助手，帮助用户对小说内容进行精简，不要输出对文章内容的总结和观点，但需要对以下内容的细节进行保留：数字、方位、时间、地点、修炼设定、武器设定、辅助工具设定、人物设定、势力设定、魂兽设定、技能设定、魂技设定、魂导器设定、战斗细节、主要情节' + append_msg},
                 {'role': 'user', 'content': content }]
     response = Generation.call(model="qwen-turbo",
                                messages=messages,
@@ -26,6 +28,7 @@ def shrink(content) -> str:
 title_start = '第二百四十八章 新老战队与新规则（下）'
 title_end = ''
 page = 0
+pre_simple_content = ''
 with open(r'02QuantumReading\output.txt', 'a') as outputIo:
     with Novel(r'01Data\原著\斗罗大陆2绝世唐门.txt') as novel:
         start = False
@@ -40,10 +43,10 @@ with open(r'02QuantumReading\output.txt', 'a') as outputIo:
                 print(f'skip {page} {title}')
             else:
                 print(f'shrink {page} {title}\n')
-                content2 = shrink(content)
+                pre_simple_content = shrink(content, pre_simple_content)
                 outputIo.write(f'{title}\n\n')
-                outputIo.write(content2)
+                outputIo.write(pre_simple_content)
                 outputIo.write('\n\n')
-                print(content2)
+                print(pre_simple_content)
                 print('\n')
 print('end.')
