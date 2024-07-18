@@ -25,16 +25,17 @@ def shrink(content, pre_simple_content) -> tuple[bool, str]:
         return (False, f'Request id: {response.request_id}, Status code: {response.status_code}, error code: {response.code}, error message: {response.message}')
 
 # 定义初始化变量
-source_path = r'01Data\原著\斗罗大陆2绝世唐门.txt'
-output_path = r'02QuantumReading\output.txt'
+source_path = r'01Data\原著\斗罗大陆外传神界传说.txt'
+output_path = r'01Data\原著\斗罗大陆外传神界传说精简版.txt'
 pre_last_title = '' # 上次最后精简的章节标题
-page = 0 # 当前章节号，从1开始
 pre_simple_content = '' # 上次精简的内容，用于下次精简作为参考
+page = 0 # 当前章节号，从1开始
 # 获取上次最后精简的章节标题
 if os.path.exists(output_path):
     with Novel(output_path) as simple_novel:
         for (title, content) in simple_novel:
             pre_last_title = title
+            pre_simple_content = content
 # 开始精简
 with open(output_path, 'a', encoding='utf8') as outputIo:
     with Novel(source_path) as novel:
