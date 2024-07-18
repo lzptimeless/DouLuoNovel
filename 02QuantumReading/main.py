@@ -2,7 +2,9 @@ import random
 from http import HTTPStatus
 from dashscope import Generation  # 建议dashscope SDK 的版本 >= 1.14.0
 from novel import Novel
+import os
 
+# 调用通义AI对小说内容进行精简
 def shrink(content, pre_simple_content) -> tuple[bool, str]:
     if not isinstance(content, str):
         raise TypeError('content must be str.')
@@ -22,24 +24,33 @@ def shrink(content, pre_simple_content) -> tuple[bool, str]:
     else:
         return (False, f'Request id: {response.request_id}, Status code: {response.status_code}, error code: {response.code}, error message: {response.message}')
 
-title_start = '第三百八十四章 拯救，南水水（上）'
-title_end = ''
-page = 0
-pre_simple_content = ''
-with open(r'02QuantumReading\output.txt', 'a', encoding='utf8') as outputIo:
-    with Novel(r'01Data\原著\斗罗大陆2绝世唐门.txt') as novel:
+# 定义初始化变量
+source_path = r'01Data\原著\斗罗大陆2绝世唐门.txt'
+output_path = r'02QuantumReading\output.txt'
+pre_last_title = '' # 上次最后精简的章节标题
+page = 0 # 当前章节号，从1开始
+pre_simple_content = '' # 上次精简的内容，用于下次精简作为参考
+# 获取上次最后精简的章节标题
+if os.path.exists(output_path):
+    with Novel(output_path) as simple_novel:
+        for (title, content) in simple_novel:
+            pre_last_title = title
+# 开始精简
+with open(output_path, 'a', encoding='utf8') as outputIo:
+    with Novel(source_path) as novel:
         start = False
         for (title, content) in novel:
-            page = page + 1
-            if not start and (not title_start or title_start in title):
-                print('start.')
-                start = True
-            if title_end and title_end in title:
-                break
+            page = page + 1 # 计算当前章节号
+            # 寻找上次精简的章节并设置start标识
             if not start:
-                print(f'skip {page} {title}')
+                if not pre_last_title:
+                    start = True
+                elif pre_last_title in title:
+                    pre_last_title = ''
+            if not start:
+                print(f'skip {page} {title}') # 跳过之前已经精简过章节
             else:
-                print(f'shrink {page} {title}\n')
+                print(f'shrink {page} {title}\n') # 打印当前精简章节
                 success, shrink_content = shrink(content, pre_simple_content)
                 if success:
                     pre_simple_content = shrink_content
