@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CharacterConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <InitDate>2631-09-01T00:00:00</InitDate>
+  <InitAge>6</InitAge>
+  <InitLevel>7</InitLevel>
+  <InitCongenitalPower>7</InitCongenitalPower>
+  <InitEffort>0.7</InitEffort>
+  <Levels>
+    <CharacterConfigLevel Level="10" SoulCircle="400" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="20" SoulCircle="700" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="23" SoulCircle="0" ExLevel="0" Effort="0.9" CongenitalPower="0" Comments="拜师月明泽" />
+    <CharacterConfigLevel Level="30" SoulCircle="1500" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="32" SoulCircle="0" ExLevel="6" Effort="0" CongenitalPower="9" Comments="服用了水仙玉肌骨" />
+    <CharacterConfigLevel Level="40" SoulCircle="4500" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="50" SoulCircle="10000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="56" SoulCircle="0" ExLevel="0" Effort="0" CongenitalPower="0" Comments="获得黑级五考" />
+    <CharacterConfigLevel Level="60" SoulCircle="20000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="70" SoulCircle="45000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="80" SoulCircle="60000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="90" SoulCircle="80000" ExLevel="0" Effort="0" CongenitalPower="0" />
+  </Levels>
+</CharacterConfig>

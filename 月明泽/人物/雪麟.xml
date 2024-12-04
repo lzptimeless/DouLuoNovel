@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CharacterConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <InitDate>2637-09-01T00:00:00</InitDate>
+  <InitAge>6</InitAge>
+  <InitLevel>9</InitLevel>
+  <InitCongenitalPower>9</InitCongenitalPower>
+  <InitEffort>0.7</InitEffort>
+  <Levels>
+    <CharacterConfigLevel Level="10" SoulCircle="400" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="17" SoulCircle="0" ExLevel="0" Effort="1" CongenitalPower="0" Comments="拜师月明泽，修炼加速" />
+    <CharacterConfigLevel Level="20" SoulCircle="700" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="30" SoulCircle="2000" ExLevel="1" Effort="0" CongenitalPower="0" Comments="超限吸收魂环" />
+    <CharacterConfigLevel Level="40" SoulCircle="6000" ExLevel="1" Effort="0" CongenitalPower="0" Comments="超限吸收魂环" />
+    <CharacterConfigLevel Level="45" SoulCircle="0" ExLevel="5" Effort="1.2" CongenitalPower="11" Comments="服用仙草八瓣仙兰，修炼速度再加" />
+    <CharacterConfigLevel Level="50" SoulCircle="17000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="60" SoulCircle="40000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="70" SoulCircle="60000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="75" SoulCircle="0" ExLevel="0" Effort="0" CongenitalPower="0" Comments="获得顶级八考" />
+    <CharacterConfigLevel Level="80" SoulCircle="60000" ExLevel="0" Effort="0" CongenitalPower="0" />
+    <CharacterConfigLevel Level="90" SoulCircle="80000" ExLevel="0" Effort="0" CongenitalPower="0" />
+  </Levels>
+</CharacterConfig>
