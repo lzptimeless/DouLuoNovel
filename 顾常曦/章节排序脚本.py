@@ -7,6 +7,7 @@
 # 则会在文件名后加上“_1”、“_2”等等来避免文件被覆盖。
 
 import os
+import re
 
 # 定义文件路径
 base_dir = os.path.dirname(__file__)
@@ -30,12 +31,17 @@ for filename in os.listdir(chapters_dir):
     if not os.path.isfile(file_path):
         continue
 
-    # 提取文件名和扩展名
-    name, ext = os.path.splitext(filename)
+    # 提取文件名和扩展名，并去除章节号和_后缀
+    match = re.match(r"^\d{0,3}(.*?)(?:_\d+)?(\.\w+)$", filename)
+    if match:
+        name = match.group(1)  # 提取章节名
+        ext = match.group(2)   # 提取扩展名
+    else:
+        name, ext = os.path.splitext(filename)  # 默认处理
 
     # 查找章节名对应的编号
     for chapter_name, chapter_number in chapter_mapping.items():
-        if chapter_name in name:
+        if chapter_name == name:
             new_name = f"{chapter_number}{chapter_name}{ext}"
             new_path = os.path.join(chapters_dir, new_name)
 
